@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:storyverse/views/screens/home/story_details_screen.dart';
 
 import '../../widgets/story_card.dart';
 
@@ -14,7 +15,18 @@ class HomeScreen extends StatelessWidget {
             children: [
               ...List.generate(
                 10,
-                (index) => const StoryCard(),
+                (index) => StoryCard(
+                  onTapStoryCard: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return const StoryDetailsScreen();
+                        },
+                      ),
+                    );
+                  },
+                ),
               ),
             ],
           )
