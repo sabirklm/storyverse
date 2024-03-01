@@ -1,0 +1,127 @@
+[
+    {
+        "id": "1",
+        "title": "The Lost Key",
+        "author": "John Doe",
+        "description": "A thrilling tale of a lost key and its mysterious journey.",
+        "genres": [
+            "Mystery",
+            "Adventure"
+        ],
+        "imageUrl": "https://3.bp.blogspot.com/-TNA5U3pd_Ds/VxWzaYUDSYI/AAAAAAAAAes/kQzGWtkZzhcojRQwCng45yKl2xESsWTeACLcB/s1600/22335838bc3928555ab55899d146ce0c0e703c3f.jpg",
+        "pdfUrl": "https://example.com/lost_key.pdf",
+        "chapters": [
+            {
+                "chapterNumber": 1,
+                "title": "The Beginning",
+                "content": "It was a dark and stormy night when Jack found the key lying on the ground..."
+            },
+            {
+                "chapterNumber": 2,
+                "title": "The Enigma Unfolds",
+                "content": "As Jack ventured deeper into the forest, strange occurrences began to unfold..."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "The Magical Forest",
+        "author": "Jane Smith",
+        "description": "A whimsical journey through a magical forest where dreams come true.",
+        "genres": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "imageUrl": "https://3.bp.blogspot.com/-TNA5U3pd_Ds/VxWzaYUDSYI/AAAAAAAAAes/kQzGWtkZzhcojRQwCng45yKl2xESsWTeACLcB/s1600/22335838bc3928555ab55899d146ce0c0e703c3f.jpg",
+        "pdfUrl": "https://example.com/magical_forest.pdf",
+        "chapters": [
+            {
+                "chapterNumber": 1,
+                "title": "The Gateway",
+                "content": "Emily stumbled upon a hidden gateway to the magical forest..."
+            },
+            {
+                "chapterNumber": 2,
+                "title": "Encounters",
+                "content": "In the heart of the forest, Emily encountered peculiar creatures and unexpected allies..."
+            },
+            {
+                "chapterNumber": 3,
+                "title": "The Final Confrontation",
+                "content": "As Emily approached the end of her journey, she faced her greatest challenge yet..."
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "title": "The Lost Key",
+        "author": "John Doe",
+        "description": "A thrilling tale of a lost key and its mysterious journey.",
+        "genres": [
+            "Mystery",
+            "Adventure"
+        ],
+        "imageUrl": "https://3.bp.blogspot.com/-TNA5U3pd_Ds/VxWzaYUDSYI/AAAAAAAAAes/kQzGWtkZzhcojRQwCng45yKl2xESsWTeACLcB/s1600/22335838bc3928555ab55899d146ce0c0e703c3f.jpg",
+        "pdfUrl": "https://example.com/lost_key.pdf",
+        "chapters": [
+            {
+                "chapterNumber": 1,
+                "title": "The Beginning",
+                "content": "It was a dark and stormy night when Jack found the key lying on the ground..."
+            },
+            {
+                "chapterNumber": 2,
+                "title": "The Enigma Unfolds",
+                "content": "As Jack ventured deeper into the forest, strange occurrences began to unfold..."
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "title": "The Lost Key",
+        "author": "John Doe",
+        "description": "A thrilling tale of a lost key and its mysterious journey.",
+        "genres": [
+            "Mystery",
+            "Adventure"
+        ],
+        "imageUrl": "https://3.bp.blogspot.com/-TNA5U3pd_Ds/VxWzaYUDSYI/AAAAAAAAAes/kQzGWtkZzhcojRQwCng45yKl2xESsWTeACLcB/s1600/22335838bc3928555ab55899d146ce0c0e703c3f.jpg",
+        "pdfUrl": "https://example.com/lost_key.pdf",
+        "chapters": [
+            {
+                "chapterNumber": 1,
+                "title": "The Beginning",
+                "content": "It was a dark and stormy night when Jack found the key lying on the ground..."
+            },
+            {
+                "chapterNumber": 2,
+                "title": "The Enigma Unfolds",
+                "content": "As Jack ventured deeper into the forest, strange occurrences began to unfold..."
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "title": "The Lost Key",
+        "author": "John Doe",
+        "description": "A thrilling tale of a lost key and its mysterious journey.",
+        "genres": [
+            "Mystery",
+            "Adventure"
+        ],
+        "imageUrl": "https://3.bp.blogspot.com/-TNA5U3pd_Ds/VxWzaYUDSYI/AAAAAAAAAes/kQzGWtkZzhcojRQwCng45yKl2xESsWTeACLcB/s1600/22335838bc3928555ab55899d146ce0c0e703c3f.jpg",
+        "pdfUrl": "https://example.com/lost_key.pdf",
+        "chapters": [
+            {
+                "chapterNumber": 1,
+                "title": "The Beginning",
+                "content": "It was a dark and stormy night when Jack found the key lying on the ground..."
+            },
+            {
+                "chapterNumber": 2,
+                "title": "The Enigma Unfolds",
+                "content": "As Jack ventured deeper into the forest, strange occurrences began to unfold..."
+            }
+        ]
+    }
+]

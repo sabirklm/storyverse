@@ -1,35 +1,31 @@
 import 'package:flutter/material.dart';
-import 'package:storyverse/views/screens/home/story_details_screen.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:storyverse/bloc/home_bloc.dart';
 
 import '../../widgets/story_card.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(
+    
+    return const Scaffold(
+      body: Column(
         children: [
-          Wrap(
-            children: [
-              ...List.generate(
-                10,
-                (index) => StoryCard(
-                  onTapStoryCard: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return const StoryDetailsScreen();
-                        },
-                      ),
-                    );
-                  },
-                ),
-              ),
-            ],
-          )
+          Expanded(
+            child: StoryListViews(),
+          ),
         ],
       ),
     );

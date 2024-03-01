@@ -1,10 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:storyverse/mock_data/story_type_mock_data.dart';
-import 'package:storyverse/views/screens/home/widgets/chapter_card.dart';
+import '/views/screens/home/widgets/chapter_card.dart';
 
-class StoryDetailsScreen extends StatelessWidget {
+class StoryDetailsScreen extends StatefulWidget {
   const StoryDetailsScreen({super.key});
+
+  @override
+  State<StoryDetailsScreen> createState() => _StoryDetailsScreenState();
+}
+
+class _StoryDetailsScreenState extends State<StoryDetailsScreen> {
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
 
   @override
   Widget build(BuildContext context) {
