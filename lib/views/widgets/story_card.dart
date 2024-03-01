@@ -20,7 +20,7 @@ class StoryCard extends StatelessWidget {
     return GestureDetector(
       onTap: onTapStoryCard,
       child: Container(
-        width: width > 225 * 2 ? 225 : width * 0.45,
+        width: width > 225 * 2 ? 225 : width * 0.44,
         padding: const EdgeInsets.all(10),
         margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 10),
         decoration: BoxDecoration(

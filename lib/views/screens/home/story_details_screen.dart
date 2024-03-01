@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:storyverse/mock_data/story_type_mock_data.dart';
+import 'package:storyverse/views/screens/home/widgets/chapter_card.dart';
 
 class StoryDetailsScreen extends StatelessWidget {
   const StoryDetailsScreen({super.key});
@@ -27,6 +28,12 @@ class StoryDetailsScreen extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {
+              // TODO: Implement delete story
+            },
+            icon: const Icon(Icons.favorite),
+          ),
+          IconButton(
+            onPressed: () {
               // TODO: Implement report story
             },
             icon: const Icon(Icons.report),
@@ -36,38 +43,12 @@ class StoryDetailsScreen extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
-            child: ListView(
+            child: PageView(
+              scrollDirection: Axis.horizontal,
               children: [
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Center(
-                        child: Text(
-                          "Chapter 1",
-                          style: GoogleFonts.sen(
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                      Text(
-                        "শুরু",
-                        style: GoogleFonts.sen(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        chapter1,
-                        style: GoogleFonts.sen(
-                          fontSize: 16,
-                          color: Colors.grey.shade500,
-                        ),
-                      ),
-                    ],
-                  ),
+                ...List.generate(
+                  10,
+                  (index) => const ChapterCard(),
                 ),
               ],
             ),
