@@ -134,7 +134,10 @@ class _StoryListViewsState extends State<StoryListViews> {
                           context,
                           MaterialPageRoute(
                             builder: (context) {
-                              return const StoryDetailsScreen();
+                              return const StoryDetailsScreen(
+                                bookId: '',
+                                chapterId: "null",
+                              );
                             },
                           ),
                         );

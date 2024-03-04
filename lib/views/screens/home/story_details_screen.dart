@@ -1,21 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:storyverse/bloc/chapters_bloc.dart';
 import '/views/screens/home/widgets/chapter_card.dart';
 
 class StoryDetailsScreen extends StatefulWidget {
-  const StoryDetailsScreen({super.key});
+  final String bookId;
+  final String chapterId;
+
+  const StoryDetailsScreen({super.key, required this.bookId, required this.chapterId});
 
   @override
   State<StoryDetailsScreen> createState() => _StoryDetailsScreenState();
 }
 
 class _StoryDetailsScreenState extends State<StoryDetailsScreen> {
-
   @override
   void initState() {
     super.initState();
+    context.read<ChaptersBloc>().add(
+          LoadChapterEvent(
+            bookId: widget.bookId,
+            chapterId: widget.chapterId,
+          ),
+        );
   }
-
 
   @override
   Widget build(BuildContext context) {
