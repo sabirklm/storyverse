@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:storyverse/views/screens/home/home_screen.dart';
+
+import '../../../bloc/home_bloc.dart';
 
 class AppBottomNavigation extends StatefulWidget {
   const AppBottomNavigation({super.key});
@@ -16,6 +19,14 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
     // Container(),
   ];
   var _selectedScreenIndex = 0;
+
+
+@override
+  void initState() {
+    context.read<HomeBloc>().add(GetStoriesEvent());
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

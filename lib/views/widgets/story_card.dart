@@ -102,7 +102,7 @@ class StoryListViews extends StatefulWidget {
 class _StoryListViewsState extends State<StoryListViews> {
   @override
   void initState() {
-    context.read<HomeBloc>().add(GetStoriesEvent());
+  
     super.initState();
   }
 

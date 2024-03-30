@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:storyverse/bloc/chapters_bloc.dart';
 import '/bloc/home_bloc.dart';
 import '/views/screens/initial_routes/initial_routing_screen.dart';
 
@@ -13,6 +14,9 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (context) => HomeBloc(),
+        ),
+        BlocProvider(
+          create: (context) => ChaptersBloc(),
         ),
       ],
       child: MaterialApp(
