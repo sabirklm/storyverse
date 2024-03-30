@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "184570545081",
+    "project_id": "enlightq-ae9d4",
+    "storage_bucket": "enlightq-ae9d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184570545081:android:69575795e6f20f489e6c68",
+        "android_client_info": {
+          "package_name": "com.dev.storyverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnERBxURHCT2eKn-cRkW_bYE26EYmI9GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184570545081-00t3lkk136gf01jenp6lk4io8hb99vb7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.enlightq.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184570545081:android:135d0b1103081d559e6c68",
+        "android_client_info": {
+          "package_name": "com.enlightq.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnERBxURHCT2eKn-cRkW_bYE26EYmI9GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184570545081-00t3lkk136gf01jenp6lk4io8hb99vb7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.enlightq.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184570545081:android:2bdc7bc85a1db3039e6c68",
+        "android_client_info": {
+          "package_name": "com.example.enlight_q_admin_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnERBxURHCT2eKn-cRkW_bYE26EYmI9GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184570545081-00t3lkk136gf01jenp6lk4io8hb99vb7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.enlightq.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184570545081:android:ff7e5f8551ff6ae39e6c68",
+        "android_client_info": {
+          "package_name": "com.storyverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnERBxURHCT2eKn-cRkW_bYE26EYmI9GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184570545081-qpnfuvpee00v9b01b597dfofea2v27gb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "184570545081-00t3lkk136gf01jenp6lk4io8hb99vb7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.enlightq.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
